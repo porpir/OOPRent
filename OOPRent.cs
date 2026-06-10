@@ -147,11 +147,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Membuat objek SewaPremium (Dika, 2 hari, harga 300000/hari, sopir 50000)
-        // Total = (2 x 300000) + 50000 = 650000
+        // Membuat objek SewaPremium
         SewaPremium penyewa1 = new SewaPremium("Dika", "R001", "Avanza", 300000, 50000);
 
-        // Menampilkan info penyewa (dari metode umum di kelas induk)
+        // Menampilkan info penyewa
         penyewa1.TampilInfo();
 
         // Menghitung dan menampilkan total sewa
